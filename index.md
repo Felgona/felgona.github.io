@@ -3,7 +3,7 @@ layout: home
 title: Felgona Awuor Owuor
 ---
 
-## Data Analyst | Economics & Statistics | MEL Analytics
+## Data Analyst | Economics & Statistics | MEL & Impact Analytics
 
 I specialize in data-driven decision making, impact evaluation, and statistical modeling.  
 My work bridges quantitative analysis with program monitoring and strategic learning systems.
