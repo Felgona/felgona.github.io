@@ -5,3 +5,14 @@ theme: minima
 collections:
   projects:
     output: true
+nav:
+  - name: About
+    link: /
+  - name: Projects
+    link: /projects
+  - name: Skills
+    link: /skills
+  - name: Contact
+    link: /contact
+
+    markdown: kramdown
