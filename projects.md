@@ -4,9 +4,14 @@ title: Projects
 ---
 
 {% for project in site.projects %}
+
 ## {{ project.title }}
 
-{{ project.content }}
+![Project Image]({{ project.image }})
+
+{{ project.description }}
+
+[View Project]({{ project.github }})
 
 ---
 
