@@ -11,6 +11,15 @@ title: Projects
 
 {{ project.description }}
 
+{% if project.insights %}
+**Key Insights:**
+<ul>
+{% for insight in project.insights %}
+  <li>{{ insight }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
 [View Project]({{ project.github }})
 
 ---
