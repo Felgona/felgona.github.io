@@ -20,6 +20,15 @@ title: Projects
 </ul>
 {% endif %}
 
+{% if project.impact %}
+**Business Impact:**
+<ul>
+{% for item in project.impact %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
 [View Project]({{ project.github }})
 
 ---
