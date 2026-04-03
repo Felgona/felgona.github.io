@@ -3,32 +3,6 @@ layout: page
 title: Projects
 ---
 
-<style>
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 50px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
-.button {
-  display:inline-block;
-  margin-top:15px;
-  padding:10px 18px;
-  background-color:#007acc;
-  color:white;
-  text-decoration:none;
-  border-radius:6px;
-  font-weight:bold;
-}
-</style>
 
 {% for project in site.projects %}
 
