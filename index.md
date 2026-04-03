@@ -86,15 +86,33 @@ function toggleDarkMode() {
 </style>
 ---
 
-## 👩‍💻 About Me
+<div class="section">
 
-I am a data analyst specializing in **data-driven decision making, statistical analysis, and impact evaluation**.
+<h2>👩‍💻 About Me</h2>
 
-My work bridges **quantitative analytics** with **program monitoring and strategic learning systems**, enabling organizations to make informed, evidence-based decisions.
+<div class="card">
+
+<p style="font-size:17px; line-height:1.7;">
+I am a <strong>Data Analyst</strong> specializing in 
+<strong>data-driven decision making, statistical analysis, and impact evaluation</strong>.
+</p>
+
+<p style="font-size:17px; line-height:1.7;">
+My work bridges <strong>quantitative analytics</strong> with 
+<strong>program monitoring and strategic learning systems</strong>, 
+enabling organizations to make informed, evidence-based decisions.
+</p>
+
+</div>
+
+</div>
+
 
 ---
 
-## 🚀 What I Do
+<div class="section">
+
+<h2>🚀 What I Do</h2>
 
 <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
 
@@ -120,31 +138,33 @@ My work bridges **quantitative analytics** with **program monitoring and strateg
 
 </div>
 
----
-
-## 📂 Explore My Work
-
-- 📊 Data Analytics Projects  
-- 📈 Business Intelligence Dashboards  
-- 📋 Monitoring & Evaluation Frameworks  
-- 📚 Statistical Case Studies  
-
-👉 Visit the **Projects** page to see my work.
+</div>
 
 ---
 
-<div style="text-align:center; margin-top:30px;">
+<div class="section">
+
+<div class="card" style="text-align:center;">
+
+<h2>📂 Explore My Work</h2>
+
+<p style="font-size:16px;">
+Discover projects in data analytics, dashboards, and impact evaluation.
+</p>
 
 <a href="/projects" style="
+  display:inline-block;
+  margin-top:15px;
   padding:12px 20px;
-  background-color:#007acc;
+  background:#007acc;
   color:white;
   text-decoration:none;
   border-radius:6px;
   font-weight:bold;
 ">
-  View Projects
+View Projects
 </a>
 
 </div>
 
+</div>
