@@ -11,16 +11,19 @@ body {
 }
 </style>
 
-
 <div style="text-align:center; margin-top:40px;">
 
-<h1 style="font-size:40px; margin-bottom:10px;">Felgona Awuor Owuor</h1>
+<img src="/assets/images/profile.png" 
+     style="width:150px; height:150px; border-radius:50%; object-fit:cover; border:4px solid #007acc;">
+
+<h1 style="font-size:40px; margin-top:15px;">Felgona Awuor Owuor</h1>
 
 <p style="font-size:20px; color:#555;">
 Data Analyst | Economics & Statistics | MEL & Impact Analytics
 </p>
 
 </div>
+
 
 ---
 
