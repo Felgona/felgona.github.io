@@ -8,48 +8,64 @@ title: Felgona Awuor Owuor
 <style>
 body {
   font-family: 'Poppins', sans-serif;
-}
-</style>
-
-<style>
-body {
   background: linear-gradient(to right, #f7f9fc, #eef3f8);
 }
 
+/* Sections */
 .section {
   margin: 60px auto;
   max-width: 900px;
   padding: 20px;
 }
 
+/* Cards */
 .card {
   background: white;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   margin-top: 20px;
+  transition: transform 0.3s ease;
 }
 
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Headings */
 h2 {
   text-align: center;
   margin-bottom: 20px;
 }
+
+/* Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .card {
+  background: #1e1e1e;
+}
+
+.dark-mode a {
+  color: #4da6ff;
+}
 </style>
 
-<div style="text-align:center; margin-top:40px;">
-
-<img src="/assets/images/profile.png" 
-     style="width:150px; height:150px; border-radius:50%; object-fit:cover; border:4px solid #007acc;">
-
-<h1 style="font-size:40px; margin-top:15px;">Felgona Awuor Owuor</h1>
-
-<p style="font-size:20px; color:#555;">
-Data Analyst | Economics & Statistics | MEL & Impact Analytics
-</p>
-
-</div>
-
----
+<!-- 🌙 DARK MODE BUTTON -->
 <button onclick="toggleDarkMode()" style="
   position:fixed;
   top:20px;
@@ -64,29 +80,41 @@ Data Analyst | Economics & Statistics | MEL & Impact Analytics
 🌙 Dark Mode
 </button>
 
-<script>
-function toggleDarkMode() {
-  document.body.classList.toggle("dark-mode");
-}
-</script>
+<!-- 🔥 HERO SECTION -->
+<div style="
+  text-align:center;
+  padding:80px 20px;
+  background: linear-gradient(to right, #007acc, #00c6ff);
+  color:white;
+  border-radius:10px;
+">
 
-<style>
-.dark-mode {
-  background-color: #121212;
-  color: white;
-}
+<img src="/assets/images/profile.png" 
+     style="width:150px; height:150px; border-radius:50%; object-fit:cover; border:4px solid white; margin-bottom:15px;">
 
-.dark-mode .card {
-  background: #1e1e1e;
-}
+<h1 style="font-size:45px;">Felgona Awuor Owuor</h1>
 
-.dark-mode a {
-  color: #4da6ff;
-}
-</style>
----
+<p style="font-size:20px;">
+Data Analyst | Economics & Statistics | MEL & Impact Analytics
+</p>
 
-<div class="section">
+<a href="/projects" style="
+  margin-top:20px;
+  display:inline-block;
+  padding:12px 20px;
+  background:white;
+  color:#007acc;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
+">
+View My Work
+</a>
+
+</div>
+
+<!-- 👩‍💻 ABOUT -->
+<div class="section fade-in">
 
 <h2>👩‍💻 About Me</h2>
 
@@ -107,10 +135,8 @@ enabling organizations to make informed, evidence-based decisions.
 
 </div>
 
-
----
-
-<div class="section">
+<!-- 🚀 WHAT I DO -->
+<div class="section fade-in">
 
 <h2>🚀 What I Do</h2>
 
@@ -140,15 +166,14 @@ enabling organizations to make informed, evidence-based decisions.
 
 </div>
 
----
-
-<div class="section">
+<!-- 📂 CTA -->
+<div class="section fade-in">
 
 <div class="card" style="text-align:center;">
 
 <h2>📂 Explore My Work</h2>
 
-<p style="font-size:16px;">
+<p>
 Discover projects in data analytics, dashboards, and impact evaluation.
 </p>
 
@@ -168,3 +193,21 @@ View Projects
 </div>
 
 </div>
+
+<!-- SCRIPT -->
+<script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+}
+
+const faders = document.querySelectorAll('.fade-in');
+
+window.addEventListener('scroll', () => {
+  faders.forEach(el => {
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) {
+      el.classList.add('visible');
+    }
+  });
+});
+</script>
