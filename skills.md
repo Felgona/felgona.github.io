@@ -5,12 +5,6 @@ title: Skills
 <link rel="stylesheet" href="/assets/css/style.css">
 
 
-<div class="section fade-in">
-
-<h2>🛠 Skills</h2>
-
-<div class="card">
-
 <h3>📊 Data Analysis</h3>
 <ul>
 <li>Python (Pandas, NumPy)</li>
@@ -46,6 +40,5 @@ title: Skills
 <li>MEL Analytics</li>
 </ul>
 
-</div>
 
 </div>
