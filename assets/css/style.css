@@ -12,7 +12,7 @@ body {
 
 /* Cards */
 .card {
-  background: white;
+  background: linear-gradient(to right, #f0f6ff, #f7fbff);
   padding: 20px;
   border-radius: 12px;
   margin-top: 20px;
