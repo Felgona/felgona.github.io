@@ -12,36 +12,22 @@ title: Skills
 <h3>📊 Data Analysis</h3>
 <ul>
 <li>Python (Pandas, NumPy)</li>
-<li>Exploratory Data Analysis (EDA)</li>
-<li>Data Cleaning & Transformation</li>
+<li>EDA</li>
+<li>Data Cleaning</li>
 </ul>
 
-<h3>📈 Data Visualization</h3>
+<h3>📈 Visualization</h3>
 <ul>
 <li>Tableau</li>
 <li>Power BI</li>
 <li>Matplotlib</li>
 </ul>
 
-<h3>🗄 Databases</h3>
-<ul>
-<li>SQL (Joins, Aggregations, Subqueries)</li>
-</ul>
-
-<h3>📉 Statistics & Analytics</h3>
+<h3>📉 Statistics</h3>
 <ul>
 <li>Hypothesis Testing</li>
-<li>Regression Analysis</li>
+<li>Regression</li>
 <li>Econometrics</li>
-</ul>
-
-<h3>🎯 Professional Skills</h3>
-<ul>
-<li>Analytical Thinking</li>
-<li>Problem Solving</li>
-<li>Data Storytelling</li>
-<li>Business Insight Development</li>
-<li>MEL Analytics</li>
 </ul>
 
 </div>
