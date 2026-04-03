@@ -24,7 +24,41 @@ Data Analyst | Economics & Statistics | MEL & Impact Analytics
 
 </div>
 
+---
+<button onclick="toggleDarkMode()" style="
+  position:fixed;
+  top:20px;
+  right:20px;
+  padding:8px 12px;
+  border:none;
+  background:#333;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+">
+🌙 Dark Mode
+</button>
 
+<script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+}
+</script>
+
+<style>
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .card {
+  background: #1e1e1e;
+}
+
+.dark-mode a {
+  color: #4da6ff;
+}
+</style>
 ---
 
 ## 👩‍💻 About Me
@@ -39,24 +73,24 @@ My work bridges **quantitative analytics** with **program monitoring and strateg
 
 <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
 
-<div style="background:#f5f5f5; padding:15px; border-radius:10px;">
+<div class="card">
 <h4>📊 Data Analysis</h4>
-<p>Cleaning, transforming, and analyzing data to uncover meaningful insights.</p>
+<p>Cleaning and transforming data to extract insights.</p>
 </div>
 
-<div style="background:#f5f5f5; padding:15px; border-radius:10px;">
+<div class="card">
 <h4>📈 Visualization</h4>
-<p>Building dashboards and visuals that communicate data clearly.</p>
+<p>Building dashboards and storytelling visuals.</p>
 </div>
 
-<div style="background:#f5f5f5; padding:15px; border-radius:10px;">
+<div class="card">
 <h4>📉 Statistical Analysis</h4>
-<p>Applying statistical methods to validate insights and trends.</p>
+<p>Applying statistical methods for validation.</p>
 </div>
 
-<div style="background:#f5f5f5; padding:15px; border-radius:10px;">
+<div class="card">
 <h4>📋 MEL Analytics</h4>
-<p>Designing monitoring and evaluation systems for impact tracking.</p>
+<p>Designing impact measurement systems.</p>
 </div>
 
 </div>
@@ -88,3 +122,4 @@ My work bridges **quantitative analytics** with **program monitoring and strateg
 </a>
 
 </div>
+
