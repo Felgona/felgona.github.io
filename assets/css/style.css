@@ -10,20 +10,50 @@ body {
   padding: 20px;
 }
 
-/* Cards */
+/* ===== GLASSMORPHISM CARDS ===== */
 .card {
+  position: relative;
+
+  /* Background (soft blue gradient) */
   background: linear-gradient(to right, #e0ecff, #f0f6ff);
+
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 16px;
   margin-top: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease;
+
+  /* Glass effect */
+  backdrop-filter: blur(10px);
+
+  /* Soft border */
+  border: 1px solid rgba(255, 255, 255, 0.6);
+
+  /* Premium shadow */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+  /* Smooth animation */
+  transition: all 0.3s ease;
 }
 
+/* Hover effect */
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
+/* Subtle shine overlay */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
 /* Headings */
 h2 {
   text-align: center;
