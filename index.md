@@ -23,7 +23,7 @@ title: Felgona Awuor Owuor
 <div style="
   text-align:center;
   padding:80px 20px;
-  background:linear-gradient(to right, #66b3ff, #cceeff);
+  background:linear-gradient(to right, #007acc, #00c6ff);
   color:white;
   border-radius:10px;
 ">
