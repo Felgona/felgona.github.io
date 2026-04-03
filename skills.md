@@ -2,7 +2,7 @@
 layout: page
 title: Skills
 ---
-
+<link rel="stylesheet" href="/assets/css/style.css">
 <div class="section fade-in">
 
   <h2>🛠 Skills</h2>
