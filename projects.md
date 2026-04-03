@@ -8,7 +8,7 @@ title: Projects
   background: white;
   padding: 20px;
   border-radius: 12px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -36,12 +36,14 @@ title: Projects
 
   <h2>{{ project.title }}</h2>
 
-  <img src="{{ project.image }}" style="width:100%; border-radius:10px;">
+  <img src="{{ project.image }}" style="width:100%; border-radius:10px; margin-top:10px;">
 
-  <p>{{ project.description }}</p>
+  <p style="margin-top:15px; font-size:16px;">
+    {{ project.description }}
+  </p>
 
   {% if project.insights %}
-  <strong>Key Insights:</strong>
+  <p><strong>Key Insights:</strong></p>
   <ul>
     {% for insight in project.insights %}
       <li>{{ insight }}</li>
@@ -50,7 +52,7 @@ title: Projects
   {% endif %}
 
   {% if project.impact %}
-  <strong>Business Impact:</strong>
+  <p><strong>Business Impact:</strong></p>
   <ul>
     {% for item in project.impact %}
       <li>{{ item }}</li>
@@ -63,5 +65,7 @@ title: Projects
   </a>
 
 </div>
+
+<hr style="margin:40px 0;">
 
 {% endfor %}
