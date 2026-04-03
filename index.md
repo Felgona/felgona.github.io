@@ -11,6 +11,31 @@ body {
 }
 </style>
 
+<style>
+body {
+  background: linear-gradient(to right, #f7f9fc, #eef3f8);
+}
+
+.section {
+  margin: 60px auto;
+  max-width: 900px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+</style>
+
 <div style="text-align:center; margin-top:40px;">
 
 <img src="/assets/images/profile.png" 
