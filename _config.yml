@@ -16,3 +16,5 @@ nav:
     link: /contact
 
     markdown: kramdown
+sass:
+  style: compressed
