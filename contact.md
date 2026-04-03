@@ -14,24 +14,19 @@ I am open to opportunities in <strong>data analytics, business intelligence, and
 </p>
 
 <p style="margin-top:15px;">
-📧 <strong>Email:</strong><br>
-<a href="mailto:awuorowuorfelgona@gmail.com">
-awuorowuorfelgona@gmail.com
-</a>
+<p>
+<i class="fas fa-envelope"></i>
+<a href="mailto:awuorowuorfelgona@gmail.com">Email</a>
 </p>
 
 <p>
-🔗 <strong>GitHub:</strong><br>
-<a href="https://github.com/Felgona" target="_blank">
-github.com/Felgona
-</a>
+<i class="fab fa-github"></i>
+<a href="https://github.com/Felgona" target="_blank">GitHub</a>
 </p>
 
 <p>
-💼 <strong>LinkedIn:</strong><br>
-<a href="https://www.linkedin.com/in/owuorfelgona" target="_blank">
-linkedin.com/in/owuorfelgona
-</a>
+<i class="fab fa-linkedin"></i>
+<a href="https://www.linkedin.com/in/owuorfelgona" target="_blank">LinkedIn</a>
 </p>
 
 </div>
