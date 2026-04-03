@@ -49,7 +49,17 @@ Data Analyst | Economics & Statistics | MEL & Impact Analytics
 ">
 View My Work
 </a>
+<div style="text-align:center; margin-top:20px;">
 
+<a href="https://github.com/Felgona" target="_blank" style="margin:10px;">
+🔗 GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/owuorfelgona" target="_blank" style="margin:10px;">
+💼 LinkedIn
+</a>
+
+</div>
 </div>
 
 <!-- 👩‍💻 ABOUT -->
