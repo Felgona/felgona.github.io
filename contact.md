@@ -2,30 +2,39 @@
 layout: page
 title: Contact
 ---
+
 <link rel="stylesheet" href="/assets/css/style.css">
 <div class="section fade-in">
 
-  <h2>📬 Get in Touch</h2>
+<h2>📬 Get in Touch</h2>
 
-  <div class="card text-center">
+<div class="card" style="text-align:center;">
 
-    <p>I am open to opportunities in <strong>data analytics, business intelligence, and impact evaluation</strong>.</p>
+<p style="font-size:16px;">
+I am open to opportunities in <strong>data analytics, business intelligence, and impact evaluation</strong>.
+</p>
 
-    <p>
-      <i class="fas fa-envelope"></i>
-      <a href="mailto:awuorowuorfelgona@gmail.com">awuorowuorfelgona@gmail.com</a>
-    </p>
+<p style="margin-top:15px;">
+📧 <strong>Email:</strong><br>
+<a href="mailto:awuorowuorfelgona@gmail.com">
+awuorowuorfelgona@gmail.com
+</a>
+</p>
 
-    <p>
-      <i class="fab fa-github"></i>
-      <a href="https://github.com/Felgona" target="_blank">GitHub</a>
-    </p>
+<p>
+🔗 <strong>GitHub:</strong><br>
+<a href="https://github.com/Felgona" target="_blank">
+github.com/Felgona
+</a>
+</p>
 
-    <p>
-      <i class="fab fa-linkedin"></i>
-      <a href="https://www.linkedin.com/in/owuorfelgona" target="_blank">LinkedIn</a>
-    </p>
+<p>
+💼 <strong>LinkedIn:</strong><br>
+<a href="https://www.linkedin.com/in/owuorfelgona" target="_blank">
+linkedin.com/in/owuorfelgona
+</a>
+</p>
 
-  </div>
+</div>
 
 </div>
