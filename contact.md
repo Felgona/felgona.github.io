@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 ---
-
+<link rel="stylesheet" href="/assets/css/style.css">
 <div class="section fade-in">
 
   <h2>📬 Get in Touch</h2>
