@@ -3,14 +3,40 @@ layout: page
 title: Contact
 ---
 
-## 📬 Get in Touch
+<div class="section fade-in">
 
-I am open to opportunities in data analytics, business intelligence, and impact evaluation.
+<h2>📬 Get in Touch</h2>
 
-📧 Email: awuorowuorfelgona@gmail.com  
-🔗 GitHub: https://github.com/Felgona  
-💼 LinkedIn: www.linkedin.com/in/owuorfelgona
+<div class="card" style="text-align:center;">
 
+<p style="font-size:16px;">
+I am open to opportunities in <strong>data analytics, business intelligence, and impact evaluation</strong>.
+</p>
+
+<p style="margin-top:15px;">
+📧 <strong>Email:</strong><br>
+<a href="mailto:awuorowuorfelgona@gmail.com">
+awuorowuorfelgona@gmail.com
+</a>
+</p>
+
+<p>
+🔗 <strong>GitHub:</strong><br>
+<a href="https://github.com/Felgona" target="_blank">
+github.com/Felgona
+</a>
+</p>
+
+<p>
+💼 <strong>LinkedIn:</strong><br>
+<a href="https://www.linkedin.com/in/owuorfelgona" target="_blank">
+linkedin.com/in/owuorfelgona
+</a>
+</p>
+
+</div>
+
+</div>
 ---
 
 Feel free to reach out for collaborations, opportunities, or professional discussions.
