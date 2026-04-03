@@ -5,11 +5,9 @@ title: Contact
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
-<div class="section fade-in">
 
 <h2>📬 Get in Touch</h2>
 
-<div class="card" style="text-align:center;">
 
 <p style="font-size:16px;">
 I am open to opportunities in <strong>data analytics, business intelligence, and impact evaluation</strong>.
@@ -36,6 +34,5 @@ linkedin.com/in/owuorfelgona
 </a>
 </p>
 
-</div>
 
 </div>
