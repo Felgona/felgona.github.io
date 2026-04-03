@@ -49,17 +49,20 @@ Data Analyst | Economics & Statistics | MEL & Impact Analytics
 ">
 View My Work
 </a>
-<div style="text-align:center; margin-top:20px;">
+<p>
+<i class="fas fa-envelope"></i>
+<a href="mailto:awuorowuorfelgona@gmail.com">Email</a>
+</p>
 
-<a href="https://github.com/Felgona" target="_blank" style="margin:10px;">
-🔗 GitHub
-</a>
+<p>
+<i class="fab fa-github"></i>
+<a href="https://github.com/Felgona" target="_blank">GitHub</a>
+</p>
 
-<a href="https://www.linkedin.com/in/owuorfelgona" target="_blank" style="margin:10px;">
-💼 LinkedIn
-</a>
-
-</div>
+<p>
+<i class="fab fa-linkedin"></i>
+<a href="https://www.linkedin.com/in/owuorfelgona" target="_blank">LinkedIn</a>
+</p>
 </div>
 
 <!-- 👩‍💻 ABOUT -->
