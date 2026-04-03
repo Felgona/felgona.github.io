@@ -3,6 +3,7 @@ layout: page
 title: Projects
 ---
 
+<link rel="stylesheet" href="/assets/css/style.css">
 
 {% for project in site.projects %}
 
