@@ -3,31 +3,47 @@ layout: page
 title: Skills
 ---
 
-## 🛠 Technical Skills
+<div class="section fade-in">
 
-### 📊 Data Analysis
-- Python (Pandas, NumPy)
-- Exploratory Data Analysis (EDA)
-- Data Cleaning & Transformation
+<h2>🛠 Skills</h2>
 
-### 📈 Data Visualization
-- Tableau
-- Power BI
-- Matplotlib & Seaborn
+<div class="card">
 
-### 🗄 Databases
-- SQL (Joins, Aggregations, Subqueries)
+<h3>📊 Data Analysis</h3>
+<ul>
+<li>Python (Pandas, NumPy)</li>
+<li>Exploratory Data Analysis (EDA)</li>
+<li>Data Cleaning & Transformation</li>
+</ul>
 
-### 📉 Statistics & Analytics
-- Hypothesis Testing
-- Regression Analysis
-- Econometrics
+<h3>📈 Data Visualization</h3>
+<ul>
+<li>Tableau</li>
+<li>Power BI</li>
+<li>Matplotlib</li>
+</ul>
 
----
+<h3>🗄 Databases</h3>
+<ul>
+<li>SQL (Joins, Aggregations, Subqueries)</li>
+</ul>
 
-## 🎯 Professional Skills
-- Analytical Thinking  
-- Problem Solving  
-- Data Storytelling  
-- Business Insight Development  
-- Monitoring, Evaluation & Learning (MEL)
+<h3>📉 Statistics & Analytics</h3>
+<ul>
+<li>Hypothesis Testing</li>
+<li>Regression Analysis</li>
+<li>Econometrics</li>
+</ul>
+
+<h3>🎯 Professional Skills</h3>
+<ul>
+<li>Analytical Thinking</li>
+<li>Problem Solving</li>
+<li>Data Storytelling</li>
+<li>Business Insight Development</li>
+<li>MEL Analytics</li>
+</ul>
+
+</div>
+
+</div>
