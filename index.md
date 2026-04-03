@@ -23,7 +23,7 @@ title: Felgona Awuor Owuor
 <div style="
   text-align:center;
   padding:80px 20px;
-  background: linear-gradient(to right, #007acc, #00c6ff);
+  background: linear-gradient(to right, #99ccff, #e6f7ff);
   color:white;
   border-radius:10px;
 ">
@@ -50,15 +50,14 @@ Data Analyst | Economics & Statistics | MEL & Impact Analytics
 View My Work
 </a>
 
-<p>
-<i class="fab fa-github"></i>
-<a href="https://github.com/Felgona" target="_blank">GitHub</a>
-</p>
-
-<p>
-<i class="fab fa-linkedin"></i>
-<a href="https://www.linkedin.com/in/owuorfelgona" target="_blank">LinkedIn</a>
-</p>
+<!-- Social Links Horizontal with Hover -->
+<div style="margin-top:20px; display:flex; justify-content:center; gap:30px;">
+  <a href="https://github.com/Felgona" target="_blank" class="social-link">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+  <a href="https://www.linkedin.com/in/owuorfelgona" target="_blank" class="social-link">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
 </div>
 
 <!-- 👩‍💻 ABOUT -->
