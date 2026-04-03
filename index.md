@@ -49,10 +49,6 @@ Data Analyst | Economics & Statistics | MEL & Impact Analytics
 ">
 View My Work
 </a>
-<p>
-<i class="fas fa-envelope"></i>
-<a href="mailto:awuorowuorfelgona@gmail.com">Email</a>
-</p>
 
 <p>
 <i class="fab fa-github"></i>
