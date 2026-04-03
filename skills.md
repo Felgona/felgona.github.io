@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Skills
+nav_order: 3
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
