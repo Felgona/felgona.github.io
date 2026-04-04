@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Contacts
-nav_order: 4
+title: 4. Contacts
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
