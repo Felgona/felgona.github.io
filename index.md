@@ -90,6 +90,7 @@ View My Work
   </a>
 
 </div>
+</div>
 
 <!-- 👩‍💻 ABOUT -->
 <div class="section fade-in">
