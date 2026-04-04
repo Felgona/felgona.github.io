@@ -78,9 +78,8 @@ View My Work
 ">
 
   <!-- Email (obfuscated but clickable, with hover effect) -->
-  <a href="#" 
-     onclick="window.location.href='mailto:' + 'awuorowuorfelgona' + '@' + 'gmail.com'; return false;" 
-     style="
+  <a href="mailto:awuorowuorfelgona@gmail.com" 
+     style=" 
        color:white; 
        text-decoration:none;
        padding:8px 14px;
