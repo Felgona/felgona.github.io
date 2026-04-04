@@ -26,7 +26,7 @@ nav_order: 1
   padding:80px 20px;  
   background: linear-gradient(to right, #336699, #99ccff);
   background-size: 200% 200%;
-  animation: gradientMove 8s ease infinite;
+  animation: gradientMove 12s ease-in-out infinite;
   color:white;
   border-radius:10px;
 ">
