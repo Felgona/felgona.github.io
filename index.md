@@ -20,12 +20,11 @@ title: Home
 </button>
 
 <!-- 🔥 HERO SECTION -->
+<!-- 🔥 HERO SECTION -->
 <div style="
   text-align:center;
-  padding:80px 20px;
-
+  padding:100px 20px;  /* increased from 80px */
   background: linear-gradient(to right, #336699, #99ccff);
-
   color:white;
   border-radius:16px;
 
@@ -39,84 +38,83 @@ title: Home
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 ">
 
-<img src="/assets/images/profile.png" 
-style="
-  width:150px;
-  height:150px;
-  border-radius:50%;
-  object-fit:cover;
-  border:4px solid white;
-  margin-bottom:15px;
+  <img src="/assets/images/profile.png" 
+       style="
+         width:150px;
+         height:150px;
+         border-radius:50%;
+         object-fit:cover;
+         border:4px solid white;
+         margin-bottom:20px;
+       ">
 
-">
-<h1 style="font-size:45px;">Felgona Awuor Owuor</h1>
+  <h1 style="font-size:45px; margin-bottom:15px;">Felgona Awuor Owuor</h1>
 
-<p style="font-size:20px;">
-Data Analyst | Economics & Statistics | MEL & Impact Analytics
-</p>
+  <p style="font-size:20px; margin-bottom:40px;">
+    Data Analyst | Economics & Statistics | MEL & Impact Analytics
+  </p>
 
+  <!-- CONTACT LINKS -->
+  <div style="
+    margin-top:40px;  /* added more spacing from title */
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    font-size:16px;
+  ">
 
-<div style="
-  margin-top:45px;
-  display:flex;
-  justify-content:center;
-  gap:30px;
-  flex-wrap:wrap;
-  font-size:16px;
-">
+    <!-- Email -->
+    <a href="mailto:awuorowuorfelgona@gmail.com" 
+       style=" 
+         color:white; 
+         text-decoration:none;
+         padding:10px 18px;
+         border-radius:8px;
+         background: rgba(255,255,255,0.1);
+         transition: all 0.3s ease;
+       "
+       onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" 
+       onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)';">
+      <i class="fas fa-envelope"></i> Email
+    </a>
 
-  <!-- Email (obfuscated but clickable, with hover effect) -->
-  <a href="mailto:awuorowuorfelgona@gmail.com" 
-     style=" 
-       color:white; 
-       text-decoration:none;
-       padding:8px 14px;
-       border-radius:6px;
-       background: rgba(255,255,255,0.1);
-       transition: all 0.3s ease;
-     "
-     onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" 
-     onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)';">
-    <i class="fas fa-envelope"></i> Email
-  </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/owuorfelgona" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       style="
+         color:white; 
+         text-decoration:none;
+         padding:10px 18px;
+         border-radius:8px;
+         background: rgba(255,255,255,0.1);
+         transition: all 0.3s ease;
+       "
+       onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" 
+       onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)';">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
 
-  <!-- LinkedIn (secured, hover effect) -->
-  <a href="https://www.linkedin.com/in/owuorfelgona" 
-     target="_blank" 
-     rel="noopener noreferrer" 
-     style="
-       color:white; 
-       text-decoration:none;
-       padding:8px 14px;
-       border-radius:6px;
-       background: rgba(255,255,255,0.1);
-       transition: all 0.3s ease;
-     "
-     onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" 
-     onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)';">
-    <i class="fab fa-linkedin"></i> LinkedIn
-  </a>
+    <!-- GitHub -->
+    <a href="https://github.com/Felgona" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       style="
+         color:white; 
+         text-decoration:none;
+         padding:10px 18px;
+         border-radius:8px;
+         background: rgba(255,255,255,0.1);
+         transition: all 0.3s ease;
+       "
+       onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" 
+       onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)';">
+      <i class="fab fa-github"></i> GitHub
+    </a>
 
-  <!-- GitHub (secured, hover effect) -->
-  <a href="https://github.com/Felgona" 
-     target="_blank" 
-     rel="noopener noreferrer" 
-     style="
-       color:white; 
-       text-decoration:none;
-       padding:8px 14px;
-       border-radius:6px;
-       background: rgba(255,255,255,0.1);
-       transition: all 0.3s ease;
-     "
-     onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" 
-     onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)';">
-    <i class="fab fa-github"></i> GitHub
-  </a>
-
+  </div>
 </div>
-</div>
-
 <!-- 👩‍💻 ABOUT -->
 <div class="section fade-in">
 
