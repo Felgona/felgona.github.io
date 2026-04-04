@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 4. Contacts
+title: Contacts
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
