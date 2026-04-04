@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2. Projects
+title: Projects
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
