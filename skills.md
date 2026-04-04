@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 3. Skills
+title: Skills
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
