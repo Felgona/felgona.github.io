@@ -55,21 +55,9 @@ style="
 Data Analyst | Economics & Statistics | MEL & Impact Analytics
 </p>
 
-<a href="/projects" style="
-  margin-top:20px;
-  display:inline-block;
-  padding:12px 20px;
-  background:white;
-  color:#007acc;
-  text-decoration:none;
-  border-radius:6px;
-  font-weight:bold;
-">
-View My Work
-</a>
 
 <div style="
-  margin-top:25px;
+  margin-top:45px;
   display:flex;
   justify-content:center;
   gap:30px;
