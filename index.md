@@ -23,10 +23,21 @@ nav_order: 1
 <!-- 🔥 HERO SECTION -->
 <div style="
   text-align:center;
-  padding:80px 20px;  
+  padding:80px 20px;
+
   background: linear-gradient(to right, #336699, #99ccff);
+
   color:white;
-  border-radius:10px;
+  border-radius:16px;
+
+  /* Glass effect */
+  backdrop-filter: blur(10px);
+
+  /* Soft border */
+  border: 1px solid rgba(255,255,255,0.3);
+
+  /* Premium shadow */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 ">
 
 <img src="/assets/images/profile.png" 
