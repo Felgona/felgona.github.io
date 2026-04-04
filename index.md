@@ -77,15 +77,53 @@ View My Work
   font-size:16px;
 ">
 
-  <a href="mailto:awuorowuorfelgona@gmail.com" style="color:white; text-decoration:none;">
+  <!-- Email (obfuscated but clickable, with hover effect) -->
+  <a href="#" 
+     onclick="window.location.href='mailto:' + 'awuorowuorfelgona' + '@' + 'gmail.com'; return false;" 
+     style="
+       color:white; 
+       text-decoration:none;
+       padding:8px 14px;
+       border-radius:6px;
+       background: rgba(255,255,255,0.1);
+       transition: all 0.3s ease;
+     "
+     onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" 
+     onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)';">
     <i class="fas fa-envelope"></i> Email
   </a>
 
-  <a href="https://www.linkedin.com/in/owuorfelgona" target="_blank" style="color:white; text-decoration:none;">
+  <!-- LinkedIn (secured, hover effect) -->
+  <a href="https://www.linkedin.com/in/owuorfelgona" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     style="
+       color:white; 
+       text-decoration:none;
+       padding:8px 14px;
+       border-radius:6px;
+       background: rgba(255,255,255,0.1);
+       transition: all 0.3s ease;
+     "
+     onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" 
+     onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)';">
     <i class="fab fa-linkedin"></i> LinkedIn
   </a>
 
-  <a href="https://github.com/Felgona" target="_blank" style="color:white; text-decoration:none;">
+  <!-- GitHub (secured, hover effect) -->
+  <a href="https://github.com/Felgona" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     style="
+       color:white; 
+       text-decoration:none;
+       padding:8px 14px;
+       border-radius:6px;
+       background: rgba(255,255,255,0.1);
+       transition: all 0.3s ease;
+     "
+     onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" 
+     onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)';">
     <i class="fab fa-github"></i> GitHub
   </a>
 
