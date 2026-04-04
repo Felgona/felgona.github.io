@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Projects
-nav_order: 2
+title: 2. Projects
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
