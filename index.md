@@ -23,8 +23,10 @@ nav_order: 1
 <!-- 🔥 HERO SECTION -->
 <div style="
   text-align:center;
-  padding:80px 20px;
-  background:linear-gradient(to right, #336699, #99ccff);
+  padding:80px 20px;  
+  background: linear-gradient(to right, #336699, #99ccff);
+  background-size: 200% 200%;
+  animation: gradientMove 8s ease infinite;
   color:white;
   border-radius:10px;
 ">
