@@ -30,8 +30,16 @@ nav_order: 1
 ">
 
 <img src="/assets/images/profile.png" 
-     style="width:150px; height:150px; border-radius:50%; object-fit:cover; border:4px solid white; margin-bottom:15px;">
+style="
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  object-fit:cover;
+  border:4px solid white;
+  margin-bottom:15px;
 
+  animation: float 4s ease-in-out infinite;
+">
 <h1 style="font-size:45px;">Felgona Awuor Owuor</h1>
 
 <p style="font-size:20px;">
