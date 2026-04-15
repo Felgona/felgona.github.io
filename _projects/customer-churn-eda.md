@@ -1,6 +1,5 @@
 ---
 title: "Customer Churn Analysis – Statistical EDA"
-date: 2026-03-01
 image: /assets/images/churn_drivers_boxplot.png
 description: "Statistical analysis of customer churn using Python and hypothesis testing to identify key drivers of attrition and revenue risk."
 
