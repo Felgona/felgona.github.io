@@ -1,51 +1,45 @@
 ---
-
 layout: page
 title: Projects
----------------
+---
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
 {% for project in site.projects %}
 
-<a href="{{ project.github }}" target="_blank" class="card-link">
-  <div class="card">
+<div class="card">
 
-```
-<h2>{{ project.title }}</h2>
+  <h2>{{ project.title }}</h2>
 
-<img src="{{ project.image }}" style="width:100%; border-radius:10px; margin-top:10px;">
+  <img src="{{ project.image }}" style="width:100%; border-radius:10px; margin-top:10px;">
 
-<p style="margin-top:15px; font-size:16px;">
-  {{ project.description }}
-</p>
+  <p style="margin-top:15px; font-size:16px;">
+    {{ project.description }}
+  </p>
 
-{% if project.insights %}
-<p><strong>Key Insights:</strong></p>
-<ul>
-  {% for insight in project.insights %}
-    <li>{{ insight }}</li>
-  {% endfor %}
-</ul>
-{% endif %}
+  {% if project.insights %}
+  <p><strong>Key Insights:</strong></p>
+  <ul>
+    {% for insight in project.insights %}
+      <li>{{ insight }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 
-{% if project.impact %}
-<p><strong>Business Impact:</strong></p>
-<ul>
-  {% for item in project.impact %}
-    <li>{{ item }}</li>
-  {% endfor %}
-</ul>
-{% endif %}
+  {% if project.impact %}
+  <p><strong>Business Impact:</strong></p>
+  <ul>
+    {% for item in project.impact %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 
-<!-- 🔥 HOVER OVERLAY -->
-<div class="card-overlay">
-  <span>View Project →</span>
+  <a href="{{ project.github }}" target="_blank" class="button">
+    View Project
+  </a>
+
 </div>
-```
-
-  </div>
-</a>
 
 <hr style="margin:40px 0;">
 
