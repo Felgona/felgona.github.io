@@ -10,27 +10,30 @@ body {
   padding: 20px;
 }
 
+/* ===== CLICKABLE CARD LINK ===== */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 /* ===== GLASSMORPHISM CARDS ===== */
 .card {
   position: relative;
+  overflow: hidden; /* keeps overlay inside */
 
-  /* Background (soft blue gradient) */
   background: linear-gradient(to right, #e0ecff, #f0f6ff);
 
   padding: 20px;
   border-radius: 16px;
   margin-top: 20px;
 
-  /* Glass effect */
   backdrop-filter: blur(10px);
 
-  /* Soft border */
   border: 1px solid rgba(255, 255, 255, 0.6);
 
-  /* Premium shadow */
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 
-  /* Smooth animation */
   transition: all 0.3s ease;
 }
 
@@ -40,7 +43,7 @@ body {
   box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
-/* Subtle shine overlay */
+/* Subtle shine */
 .card::before {
   content: "";
   position: absolute;
@@ -49,12 +52,51 @@ body {
   background: rgba(255,255,255,0.2);
   opacity: 0;
   transition: opacity 0.3s ease;
-  pointer-events: none;
+
+  pointer-events: none; /* 🔥 prevents blocking clicks */
 }
 
 .card:hover::before {
   opacity: 1;
 }
+
+/* ===== HOVER OVERLAY ===== */
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+
+  background: rgba(0, 122, 204, 0.75);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Overlay text */
+.card-overlay span {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+/* Show overlay */
+.card:hover .card-overlay {
+  opacity: 1;
+}
+
+.card:hover .card-overlay span {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 /* Headings */
 h2 {
   text-align: center;
@@ -72,13 +114,13 @@ h2 {
   opacity: 1;
   transform: translateY(0);
 }
-/* ===== MODERN NAVBAR ===== */
+
+/* ===== NAVBAR ===== */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 1000;
 
-  /* Glass navbar effect */
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
 
@@ -87,12 +129,10 @@ h2 {
   padding: 12px 0;
 }
 
-/* Center navigation */
 .site-nav {
   text-align: center;
 }
 
-/* Navbar links */
 .site-header a {
   margin: 0 18px;
   text-decoration: none;
@@ -103,37 +143,14 @@ h2 {
   transition: all 0.3s ease;
 }
 
-/* Hover effect */
 .site-header a:hover {
   color: #007acc;
 }
 
-/* Optional: Active link effect */
 .site-header a:active {
   color: #003366;
-}
-/* Buttons */
-.button {
-  display:inline-block;
-  margin-top:15px;
-  padding:10px 18px;
-  background-color:#007acc;
-  color:white;
-  text-decoration:none;
-  border-radius:6px;
-  font-weight:bold;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-@keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); }
-  100% { transform: translateY(0px); }
-}
-@keyframes gradientMove {
-  0% { background-position: left; }
-  100% { background-position: right; }
 }
