@@ -35,9 +35,11 @@ title: Projects
   </ul>
   {% endif %}
 
-  <a href="{{ project.github }}" target="_blank" class="button">
+  {% if project.url %}
+  <a href="{{ project.url }}" target="_blank" class="button">
     View Project
   </a>
+{% endif %}
 
 </div>
 
