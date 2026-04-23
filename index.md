@@ -64,21 +64,6 @@ title: Home
     font-size:16px;
   ">
 
-    <!-- Email -->
-    <a href="mailto:awuorowuorfelgona@gmail.com" 
-       style=" 
-         color:white; 
-         text-decoration:none;
-         padding:10px 18px;
-         border-radius:8px;
-         background: rgba(255,255,255,0.1);
-         transition: all 0.3s ease;
-       "
-       onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)';" 
-       onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)';">
-      <i class="fas fa-envelope"></i> Email
-    </a>
-
     <!-- LinkedIn -->
     <a href="https://www.linkedin.com/in/owuorfelgona" 
        target="_blank" 
