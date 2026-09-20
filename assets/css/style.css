@@ -193,7 +193,8 @@ details[open] .see-less {
   margin-bottom: 15px;
 }
 .churn-image {
-  height: 260px;
+  height: 250px;
   object-fit: cover;
+  object-position: top;
 }
 
