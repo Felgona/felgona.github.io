@@ -192,5 +192,8 @@ details[open] .see-less {
   text-align: center;
   margin-bottom: 15px;
 }
-
+.churn-image {
+  height: 280px;
+  object-fit: cover;
+}
 
