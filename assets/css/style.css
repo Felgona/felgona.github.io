@@ -193,15 +193,4 @@ details[open] .see-less {
   margin-bottom: 15px;
 }
 
-/* ===== PROJECT IMAGE SIZING ===== */
 
-.projects-grid .card > a > img {
-  width: 100%;
-  height: auto;
-  max-height: 280px;
-  object-fit: contain;
-  border-radius: 10px;
-  cursor: pointer;
-  display: block;
-  margin: 10px auto 0;
-}
