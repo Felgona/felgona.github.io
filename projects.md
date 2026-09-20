@@ -22,8 +22,9 @@ title: Projects
   <details style="margin-top:15px;">
 
     <summary style="cursor:pointer; font-weight:bold; color:#007acc;">
-      Read more
-    </summary>
+  <span class="read-more">Read more</span>
+  <span class="see-less">See less</span>
+</summary>
 
     {% if project.insights %}
     <p><strong>Key Insights:</strong></p>
