@@ -3,11 +3,11 @@ body {
   background: linear-gradient(to right, #9bbad9, #f0f7ff);
 }
 
-
-.projects-grid {
-  width: 95%;
-  max-width: 1400px;
-  margin: 30px auto;
+/* Sections */
+.section {
+  margin: 60px auto;
+  max-width: 900px;
+  padding: 20px;
 }
 
 /* ===== GLASSMORPHISM CARDS ===== */
