@@ -194,20 +194,18 @@ details[open] .see-less {
 }
 
 .project-image-link {
-  display: flex;
+  display: block;
   width: 100%;
-  height: 300px;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  border-radius: 10px;
   margin-top: 10px;
 }
 
 .project-image {
+  display: block;
   width: 100%;
-  height: 100%;
+  max-height: 280px;
+  height: auto;
   object-fit: contain;
   border-radius: 10px;
   cursor: pointer;
+  margin: 0 auto;
 }
