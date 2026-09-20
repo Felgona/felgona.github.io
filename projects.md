@@ -5,6 +5,8 @@ title: Projects
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
+<div class="projects-grid">
+
 {% for project in site.projects %}
 
 <div class="card">
@@ -49,6 +51,6 @@ title: Projects
 
 </div>
 
-<hr style="margin:40px 0;">
-
 {% endfor %}
+
+</div>
