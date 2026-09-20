@@ -137,3 +137,41 @@ html {
   0% { background-position: left; }
   100% { background-position: right; }
 }
+
+/* ===== PROJECT GRID ===== */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.projects-grid .card {
+  margin-top: 0;
+}
+
+/* Responsive layout */
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Read more / See less toggle */
+
+.see-less {
+  display: none;
+}
+
+details[open] .read-more {
+  display: none;
+}
+
+details[open] .see-less {
+  display: inline;
+}
