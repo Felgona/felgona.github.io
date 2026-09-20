@@ -14,7 +14,7 @@ title: Projects
   <h2 class="project-title">{{ project.title }}</h2>
 
   <a href="{{ project.image }}" target="_blank" class="project-image-link">
-  <img src="{{ project.image }}" class="project-image">
+  <img src="{{ project.image }}" class="{{ project.image_class }}" style="width:100%; border-radius:10px; margin-top:10px; cursor:pointer;">
 </a>
   <p style="margin-top:15px; font-size:16px;">
     {{ project.description }}
