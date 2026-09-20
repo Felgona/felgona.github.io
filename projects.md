@@ -11,7 +11,7 @@ title: Projects
 
   <h2>{{ project.title }}</h2>
 
-<img src="{{ project.image }}" style="width:100%; max-height:350px; object-fit:contain; border-radius:10px; margin-top:10px;">
+<img src="{{ project.image }}" style="width:100%; border-radius:10px; margin-top:10px;">
 
   <p style="margin-top:15px; font-size:16px;">
     {{ project.description }}
