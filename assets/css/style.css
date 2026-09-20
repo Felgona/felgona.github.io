@@ -175,3 +175,15 @@ details[open] .read-more {
 details[open] .see-less {
   display: inline;
 }
+/* ===== PROJECTS PAGE ===== */
+
+.projects-page {
+  width: 95vw;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.projects-grid {
+  width: 100%;
+  max-width: none;
+}
