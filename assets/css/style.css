@@ -3,12 +3,7 @@ body {
   background: linear-gradient(to right, #9bbad9, #f0f7ff);
 }
 
-/* Sections */
-.section {
-  margin: 60px auto;
-  max-width: 900px;
-  padding: 20px;
-}
+
 .projects-grid {
   width: 95%;
   max-width: 1400px;
