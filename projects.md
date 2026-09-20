@@ -11,7 +11,7 @@ title: Projects
 
 <div class="card">
 
-  <h2>{{ project.title }}</h2>
+  <h2 class="project-title">{{ project.title }}</h2>
 
   <img src="{{ project.image }}" style="width:100%; border-radius:10px; margin-top:10px;">
 
