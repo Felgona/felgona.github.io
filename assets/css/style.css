@@ -193,19 +193,15 @@ details[open] .see-less {
   margin-bottom: 15px;
 }
 
-.project-image-link {
-  display: block;
-  width: 100%;
-  margin-top: 10px;
-}
+/* ===== PROJECT IMAGE SIZING ===== */
 
-.project-image {
-  display: block;
+.projects-grid .card > a > img {
   width: 100%;
-  max-height: 280px;
   height: auto;
+  max-height: 280px;
   object-fit: contain;
   border-radius: 10px;
   cursor: pointer;
-  margin: 0 auto;
+  display: block;
+  margin: 10px auto 0;
 }
