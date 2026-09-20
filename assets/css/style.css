@@ -184,3 +184,11 @@ details[open] .see-less {
   margin-left: 50%;
   transform: translateX(-50%);
 }
+
+/* Project title size */
+
+.projects-grid .project-title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 15px;
+}
