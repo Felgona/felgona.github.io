@@ -176,3 +176,11 @@ details[open] .see-less {
   display: inline;
 }
 
+/* Expand project grid across the desktop content area */
+
+.projects-grid {
+  width: 90vw;
+  max-width: 1400px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
